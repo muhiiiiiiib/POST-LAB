@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main (){
+	float num, cuberoot, root;
+	
+	printf("Enter Number: \n");
+	scanf("%f", &num);
+	
+    root = pow(num, 1.0 / 2.0);
+    cuberoot = pow(num, 1.0 / 3.0);
+	
+	printf("The Square Root Is: %f", root);
+	printf("The Cube Root Is: %f", cuberoot);
+	return 0;
+}
