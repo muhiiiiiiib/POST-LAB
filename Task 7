@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+	float A,B,C, avg;
+	
+	printf("Enter A Number: \n");
+	scanf("%f", &A);
+	printf("Enter A Number: \n");
+	scanf("%f", &B);
+	printf("Enter A Number: \n");
+	scanf("%f", &C);
+	
+	avg= (A+B+C)/3;
+	
+	printf("the Avg Is: %.2f", avg);	
+	return 0;
+}
