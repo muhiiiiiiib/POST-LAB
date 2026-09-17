@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main (){
+	char name;
+	
+	printf("Enter Your Name: \n");
+	
+	fgets(name);
+	
+	printf("Your Name Is %s", name);
+	
+	return 0;
+}
