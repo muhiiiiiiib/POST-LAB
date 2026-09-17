@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main (){
+	int days;
+	
+	printf("Enter The Number Of Days Late: \n");
+	scanf("%d", &days);
+	
+	if (days >= 1 && days <= 5){
+		printf("Fine: Rs 50.");
+	} else if (days >=6 && days <= 10){
+		printf("Fine: Rs 100.");
+	}
+	else if (days >= 10){
+		printf("Fine: Rs 200");
+	}
+	else 
+	printf("Fine: Rs 0");
+	
+	return 0;
+}
