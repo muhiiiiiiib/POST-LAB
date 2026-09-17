@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main (){
+	float C,Far;
+	
+	printf("Enter Temp In Celcius: \n");
+	scanf("%f", &C);
+	
+	Far = (C * (9/5)) + 32;
+	
+	printf("The Farhenite Is: %.2f", Far);
+	return 0;
+}
