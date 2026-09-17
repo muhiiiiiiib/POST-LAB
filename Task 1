@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main (){
+	int income, marks;
+	
+	printf("Enter Your Income: \n");
+	scanf("%d", &income);
+	printf("Enter Your Marks (Out of 100!): \n");
+	scanf("%d", &marks);
+	
+	if (income <= 50000 || marks >= 80){
+		printf("Youre Eligible For The Scholar Ship!.");
+	}
+	else 
+	printf("Youre Not Eligible For The Scholar Ship!");
+	
+	return 0;
+}
